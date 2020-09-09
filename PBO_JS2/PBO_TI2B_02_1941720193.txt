@@ -1,0 +1,50 @@
+prcobaan 2
+
+7. bagian pendeklarasian atribut pada 
+	mhs1.nama = ("alfin");
+        mhs1.kelas = ("TI 2B");
+        mhs1.alamat = ("blitar");
+        mhs1.nim = 123;
+8. bagian pendeklarasian pada methods pada
+	mhs1.tampilBiodata();
+9. 4
+10. mendeklarasikan pada atribut nim dari class
+11. menampilkan hasil dari deklarasi atribut
+12. package PBO_JS2;
+    public class Mahasiswa {
+       public int nim;
+       public String nama;
+       public String alamat;
+       public String kelas;
+       public String tingkat;
+       public String mataKuliah;
+       
+       public void tampilBiodata(){
+           System.out.println("nama: " + nama);
+           System.out.println("kelas: " + kelas);
+           System.out.println("alamat: " + alamat);
+           System.out.println("nim: " + nim);
+           System.out.println("tingkat: " +tingkat);
+           System.out.println("Matakuliah: " + mataKuliah);
+           
+    }
+}
+    public class TestMahasiswa {
+    	public static void main(String[] args) {
+        
+        	Mahasiswa mhs1=new Mahasiswa();
+        
+        	mhs1.nama = ("alfin");
+        	mhs1.kelas = ("TI 2B");
+        	mhs1.alamat = ("blitar");
+        	mhs1.nim = 123;
+        	mhs1.tingkat = ("2");
+        	mhs1.mataKuliah = ("PBO");
+        	mhs1.tampilBiodata();
+    }   
+}
+percobaan 3
+
+7. untuk memberikan pentukjuk bahwa itu methods
+8. fungsi dari return sendiri adalah untuk kembali ke atribut sebelumnya untuk di keluarkan/dicetak
+   untuk return digunakan pada waktu kita menggunakan atribut int
